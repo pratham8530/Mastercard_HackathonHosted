@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "https://mastercard-hackathon-hosted.vercel.app/", // or your frontend URL
+  origin: "*", // or your frontend URL
   credentials: true
 }));
 app.use(express.json());
