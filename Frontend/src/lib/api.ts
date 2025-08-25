@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://mastercard-hackathonhosted.onrender.com';
 
 import axios from 'axios';
 
@@ -41,7 +41,7 @@ export const createDonation = async (formData: FormData, token: string) => {
   try {
     console.log("Token used for donation:", token);
     const response = await axios.post(
-      'http://localhost:4000/api/donations',
+      'https://mastercard-hackathonhosted.onrender.com/api/donations',
       formData,
       {
         headers: {
