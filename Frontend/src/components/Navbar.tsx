@@ -12,7 +12,7 @@ const Navbar = ({ onLoginClick }: NavbarProps) => (
         {/* Logo on the left, vertically centered */}
         <div className="flex items-center h-full">
           <img
-            src="../public/header-logo.svg"
+            src="https://sevasahayog.org/wp-content/uploads/2021/07/Seva-Sahayog-mob-logo.png"
             alt="Seva Sahayog Foundation Logo"
             className="h-12 w-auto"
             style={{ maxHeight: '48px' }}
